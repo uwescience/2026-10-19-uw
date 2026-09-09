@@ -26,6 +26,10 @@ what3words:           # what3words (https://what3words.com) address of the works
 layout: workshop
 ---
 
+{% assign isOfficial = site.official_curricula | has: site.carpentry %}
+
+{% if page.venue == "FIXME" or page.address == "FIXME" or page.country == "FIXME" or page.language == "FIXME" or page.latitude == "FIXME" or page.longitude == "FIXME" or page.humandate == "FIXME" or page.humantime == "FIXME" or page.startdate == "FIXME" or page.enddate == "FIXME" %} {% assign fixmes = true %} {% endif %}
+
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
 
 {% comment %}
