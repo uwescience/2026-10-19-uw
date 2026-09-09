@@ -55,6 +55,17 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 </div>
 {% endif %}
 
+<div style="justify-content: center; width: 100%; display: flex;">
+  <div style="background-color: #EEFFEE; width: 100%; border-style: solid; border-color: green; border-width: 5px; padding: 5px; overflow: auto;">
+  <h2 id="registration">Registration Information</h2>
+  <ul>
+    <li>In order to register for the workshop, you must first follow the <a href="https://uwescience.github.io/2026-10-19-uw/#setup">setup instructions</a>, below. You must install all four tools: <a href="https://uwescience.github.io/2026-10-19-uw/#the-bash-shell">the Bash Shell</a>, <a href="https://uwescience.github.io/2026-10-19-uw/#git-1">Git</a>, a <a href="https://uwescience.github.io/2026-10-19-uw/#text-editor">Text Editor</a>, and <a href="https://uwescience.github.io/2026-10-19-uw/#python-1">Python</a>.</li>
+    <li>If you are unable to follow the instructions, please email Noah Benson &lt;<a href="mailto:nben@uw.edu">nben@uw.edu</a>&gt; for assistance; we will help you install the software then give you a registration link.</li>
+    <li>Otherwise, once you have followed these instructions, please fill out <a href="https://forms.gle/Z3BoakMmuAbTcdYk8">this Google Form</a>. You will not be able to complete the form if you have not successfully installed all four pieces of software.</li>
+    <li><b>The registration form will be closed at noon on Sunday, October 18th</b>, the day before the start of the workshop.</li>
+  </ul>
+  </div>
+</div>
 
 {% comment %}
 Check DC curriculum
